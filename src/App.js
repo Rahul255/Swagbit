@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses";
+import './index.css'
 
 function App() {
   const expenses = [
@@ -24,7 +25,7 @@ function App() {
   ];
   return (
     <div>
-      <h2>Get started</h2>
+      <h2>This is Sample Expense Page</h2>
       <Expenses items={expenses}/>
     </div>
   );
