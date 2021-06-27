@@ -1,7 +1,9 @@
 import Expenses from "./components/Expenses/Expenses";
 import './index.css'
 
-function App() {
+//error function synt
+
+const App = () => {
   const expenses = [
     {
       id: 'e1',

@@ -3,7 +3,7 @@ import Card from '../UI/Card';
 import ExpenseDate from './ExpenseDate';
 
 //props used to call value from other components
-function ExpenseItem (props) {
+const ExpenseItem = (props) => {
     //javascript code Here
     return(
         //this card is a custom buildable wrapper component 

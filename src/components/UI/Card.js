@@ -1,6 +1,6 @@
 import './Card.css';
 
-function Card (props) {
+const Card = (props) => {
     //this way we can add css of ExpenseItem.css data in the custom card data
     //any value added in the className will add to here
     const classes = ' card ' + props.className;
