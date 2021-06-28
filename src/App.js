@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 import './index.css'
 
 //error function synt
@@ -27,7 +28,7 @@ const App = () => {
   ];
   return (
     <div>
-      <h2>This is Sample Expense Page</h2>
+      <NewExpense/>
       <Expenses items={expenses}/>
     </div>
   );
