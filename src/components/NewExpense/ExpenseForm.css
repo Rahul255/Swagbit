@@ -17,6 +17,7 @@
     padding: 0.5rem;
     border-radius: 6px;
     border: 1px solid #ccc;
+    border: 2px solid rgb(236, 7, 7);
     width: 20rem;
     max-width: 100%;
   }
