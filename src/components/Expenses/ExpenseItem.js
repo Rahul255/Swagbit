@@ -14,6 +14,7 @@ const ExpenseItem = (props) => {
     }
     return(
         //this card is a custom buildable wrapper component 
+        <li>
         <Card className="expense-item">
             <ExpenseDate date={props.date}/>
             <div className="expense-item__description">
@@ -23,6 +24,7 @@ const ExpenseItem = (props) => {
             
             <button onClick={clickHandler}>Change Title</button>
         </Card>
+        </li>
         //upper button click function, we wiil create an anonyms error fun
     );
 }
